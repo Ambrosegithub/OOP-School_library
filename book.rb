@@ -13,4 +13,4 @@ class Book
 end
 
 book = Book.new('story teller', 'Hatim')
-puts book.title
+book.title

@@ -71,8 +71,8 @@ class Person < Nameable
 end
 
 person = Person.new(22, 'maximilianus')
-puts person.correct_name
+person.correct_name
 capitalized = CapitalizeDecorator.new(person)
-puts capitalized.correct_name
+capitalized.correct_name
 trimmed = TrimmerDecorator.new(capitalized)
-puts trimmed.correct_name
+trimmed.correct_name

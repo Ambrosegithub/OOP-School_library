@@ -21,5 +21,5 @@ class Student < Person
 end
 
 student = Student.new('Hatim', true)
-puts student.play_hooky
-puts student.name
+student.play_hooky
+student.name
