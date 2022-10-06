@@ -11,12 +11,3 @@ class Rental
     @person.rentals.push(self)
   end
 end
-
-book = Book.new('Advance Javascript', 'Afolabi')
-person = Person.new(34, 'Afolabi')
-rental = Rental.new('2002', book, person)
-puts rental.date
-puts rental, person.name
-puts rental, person.age
-puts rental.book.title
-puts rental.book.author
