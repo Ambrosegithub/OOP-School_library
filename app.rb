@@ -49,7 +49,8 @@ class App
       new_teacher.name = name
       @teacher.push(new_teacher)
       puts 'Teacher has been created successfully'
-
+    else
+      puts 'Wrong input'
     end
   end
 
