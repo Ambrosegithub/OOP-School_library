@@ -32,16 +32,15 @@ class App
       age = gets.chomp.to_i
       print 'Name: '
       name = gets.chomp
-      
+
       print 'Do you have parental permission? [Y/N]: '
       parent_permission = gets.chomp
-       case parent_permission.capitalize
+      case parent_permission.capitalize
       when 'Y'
         true
       else
         false
       end
-
       print 'Enter classroom:'
       classroom = gets.chomp
       new_student = Student.new(age, classroom)
