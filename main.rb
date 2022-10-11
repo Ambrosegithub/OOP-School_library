@@ -1,4 +1,4 @@
-require_relative 'App'
+require_relative 'app'
 require_relative 'create_person'
 require_relative 'create_rental'
 require_relative 'create_book'

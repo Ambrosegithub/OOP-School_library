@@ -9,7 +9,7 @@ class App
 
   def initialize
     @books = []
-   @people = []
+    @people = []
     @rentals = []
   end
 
@@ -18,14 +18,20 @@ class App
   end
 
   def list_people
-    people = [*@teacher, *@student]
-    people.each_with_index { |person, i| print "(#{i}) Name: \"#{person.name}\", Age: \"#{person.age}\"\n" }
+    # @people = [*@teacher, *@student]
+    # people.each_with_index do |person, i|
+    @people.each_with_index do |person, i|
+      print "(#{i}) Name: \"#{person.name}\", Age: \"#{person.age}\" Id: \"#{person.id}\"\n"
+    end
+
+    # print "(#{i}) [#{person.is_a?(Student)? '[Student]' : '[Teacher]'} Name: \"#{person.name}\", Age: \"#{person.age}"
   end
+
   def list_rentals
     print 'Enter person ID: '
     id = gets.chomp.to_i
     @rentals.each do |rental|
-      if rental.person.id == id
+      if id == rental.person.id
         print "Date: #{rental.date}, Book: \"#{rental.book.title}\" Author #{rental.book.author}\n"
       end
     end
