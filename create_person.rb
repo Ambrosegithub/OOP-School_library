@@ -57,6 +57,6 @@ class CreatePerson
     end
     def add_to_collection(person)
         @people.push(person)
-        puts "person has been created successfully"
+        # puts "person has been created successfully"
     end
 end

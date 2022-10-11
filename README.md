@@ -27,6 +27,12 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@twitterhandle](https://twitter.com/Glorious851)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ambrose-isigba/)
 
+👤 **Author**
+
+- GitHub: [@chimwemwe007](https://github.com/chimwemwe007)
+- Twitter: [@chxmz](https://twitter.com/chxmz)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/chimwemwe-mkandawire/)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
