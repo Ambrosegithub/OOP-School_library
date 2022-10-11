@@ -18,13 +18,9 @@ class App
   end
 
   def list_people
-    # @people = [*@teacher, *@student]
-    # people.each_with_index do |person, i|
     @people.each_with_index do |person, i|
       print "(#{i}) Name: \"#{person.name}\", Age: \"#{person.age}\" Id: \"#{person.id}\"\n"
     end
-
-    # print "(#{i}) [#{person.is_a?(Student)? '[Student]' : '[Teacher]'} Name: \"#{person.name}\", Age: \"#{person.age}"
   end
 
   def list_rentals
