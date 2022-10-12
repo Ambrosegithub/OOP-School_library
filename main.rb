@@ -2,6 +2,7 @@ require_relative 'app'
 require_relative 'create_person'
 require_relative 'create_rental'
 require_relative 'create_book'
+require_relative 'start'
 
 class Main
   def initialize
@@ -21,24 +22,6 @@ class Main
       print "6 - List all rentals for a given person id\n"
       print "7 - Exit\n"
       start_app
-    end
-  end
-
-  def start_app
-    @output = gets.chomp.to_i
-    case @output
-    when 1
-      @app.list_books
-    when 2
-      @app.list_people
-    when 3
-      CreatePerson.new(@app.people).create_person
-    when 4
-      CreateBook.new(@app.books).create_book
-    when 5
-      CreateRental.new(@app.rentals).create_rental(@app)
-    when 6
-      @app.list_rentals
     end
   end
 end

@@ -10,4 +10,5 @@ class Teacher < Person
   end
 end
 teacher = Teacher.new(45, 'Ambrose', 'Lecturer')
-teacher.can_use_service?
+teacher.can_use_service? 
+ 

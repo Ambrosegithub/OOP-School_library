@@ -2,6 +2,7 @@ class CreatePerson
   def initialize(people)
     @people = people
   end
+
   def create_person
     case @input = collect_person
     when 1
