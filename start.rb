@@ -16,7 +16,7 @@ def start_app
   when 7
     @app.storebooks
     @app.store_people
-    @app.storerentals
+    @app.store_rentals
 
     puts 'Thank you for using this app!'
   else
