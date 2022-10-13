@@ -18,9 +18,9 @@ class App
     @books = []
     @people = []
     @rentals = []
-    #read_people
+    read_people
     readbooks
-    #read_rentals
+    read_rentals
   end
   include FileHandler
   include HandleBook
