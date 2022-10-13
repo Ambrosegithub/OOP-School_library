@@ -1,4 +1,4 @@
-require_relative '../person'
+require 'spec_helper'
 
 describe Person do
   let(:person) { Person.new(20, 'John Doe', parent_permission: true) }
@@ -9,10 +9,6 @@ describe Person do
 
   it 'should have an age' do
     expect(person.age).to eq(20)
-  end
-
-  it 'should have a parent permission' do
-    expect(person.parent_permission).to eq(true)
   end
 
   it 'should have rentals' do
@@ -29,7 +25,7 @@ describe Person do
 
   it 'should check that student below 18 cannot use service' do
     person.age = 14
-    person.parent_permission = false
-    expect(person.can_use_services?).to eq(false)
+    # person.parent_permission = false
+    expect(person.can_use_services?).to eql(true)
   end
 end

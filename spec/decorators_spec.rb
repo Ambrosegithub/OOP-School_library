@@ -1,8 +1,7 @@
-require_relative '../decorators'
-require_relative '../person'
+require 'spec_helper'
 
 describe Person do
-  context 'test for Person decorations from the nameable class' do
+  context 'test for Person decorations from class' do
     person = Person.new(12, 'eve dallas roarke', parent_permission: true)
     person.correct_name
 

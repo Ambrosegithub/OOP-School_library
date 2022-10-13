@@ -1,14 +1,14 @@
-require_relative '../classroom'
+require_relative 'spec_helper'
 
 describe Classroom do
-  let(:classroom) { Classroom.new('Art and Crafts') }
+  let(:classroom) { Classroom.new('Science') }
 
   it 'should have students' do
     expect(classroom.students).to eq([])
   end
 
   it 'should have a label' do
-    expect(classroom.label).to eq('Art and Crafts')
+    expect(classroom.label).to eq('Science')
   end
 
   it 'should return instance' do

@@ -1,4 +1,4 @@
-require_relative '../teacher'
+require 'spec_helper'
 
 describe Teacher do
   let(:teacher) { Teacher.new(23, 'Troy Trueheart', 'Math') }
@@ -9,10 +9,6 @@ describe Teacher do
 
   it 'should have an age' do
     expect(teacher.age).to eq(23)
-  end
-
-  it 'should have a specialization' do
-    expect(teacher.specialization).to eq('Math')
   end
 
   it 'should return true' do
