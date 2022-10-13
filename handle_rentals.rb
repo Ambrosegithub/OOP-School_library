@@ -17,7 +17,7 @@ module HandleRentals
   end
 
   def read_rentals
-    file = File.read('./rental.json')
+    file = File.read('./rentals.json')
     JSON.parse(file)
       .each do |rental|
       date = rental['date']

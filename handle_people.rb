@@ -5,7 +5,7 @@ module HandlePeople
     def store_people
         peopeleArr = []
         @people.map do |person|
-            if person_instance_of?(Student)
+            if person.instance_of?(Student)
                 peopeleArr.push({
                     id: person.id,
                     type: person.class,
