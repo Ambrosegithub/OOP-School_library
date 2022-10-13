@@ -20,7 +20,6 @@ module HandleBook
     JSON
     .parse(parse_file)
     .each do |book|
-
       @books.push(Book.new(book['title'], book['author']))
     end
   end
