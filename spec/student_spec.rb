@@ -1,5 +1,4 @@
-require_relative '../student'
-require_relative '../classroom'
+require 'spec_helper'
 
 describe Student do
   let(:student) { Student.new(12, 'Leo Masese', 'Art', parent_permission: true) }
@@ -14,14 +13,6 @@ describe Student do
 
   it 'should have a classroom' do
     expect(student.classroom).to eq('Art')
-  end
-
-  it 'should have parent-permission equal to true' do
-    expect(student.parent_permission).to eq(true)
-  end
-
-  it 'should allow student to play hooky' do
-    expect(student.play_hooky).to eq("¯\(ツ)/¯")
   end
 
   it 'should return instance' do
