@@ -1,4 +1,4 @@
-def start_app
+def start
   @output = gets.chomp.to_i
   case @output
   when 1

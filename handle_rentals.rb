@@ -3,9 +3,9 @@ require_relative 'rental'
 
 module HandleRentals
   def store_rentals
-    rentalArray = []
+    rental_array = []
     @rentals.map do |rental|
-      rentalArray.push(
+      rental_array.push(
         {
           date: rental.date,
           person_id: rental.person.id,
@@ -13,7 +13,7 @@ module HandleRentals
         }
       )
     end
-    write_json(rentalArray, './rental.json')
+    write_json(rental_array, './rental.json')
   end
 
   def read_rentals

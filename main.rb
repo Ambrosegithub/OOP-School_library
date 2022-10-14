@@ -21,7 +21,7 @@ class Main
       print "5 - Create a rental\n"
       print "6 - List all rentals for a given person id\n"
       print "7 - Exit\n"
-      start_app
+      start
     end
   end
 end

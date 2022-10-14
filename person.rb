@@ -34,7 +34,7 @@ class TrimmerDecorator < BaseDecorator
 end
 
 class Person < Nameable
-  attr_accessor :name, :age, :rentals, :parent_permission,:id
+  attr_accessor :name, :age, :rentals, :parent_permission, :id
 
   def initialize(age, name = 'Unknown', parent_permission: true)
     super()
