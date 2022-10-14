@@ -1,9 +1,3 @@
 [
-  {
-    "id" : 800,
-    "type" : "Student",
-    "age" : 45,
-    "name" : "rich",
-    "parent_permission" : false
-  }
+
 ]

@@ -12,8 +12,6 @@ require_relative 'handle_rentals'
 class App
   attr_accessor :books, :people, :rentals
 
-  
-
   def initialize
     @books = []
     @people = []
