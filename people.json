@@ -2,22 +2,22 @@
   {
     "id" : 52,
     "type" : "Student",
-    "age" : "John",
-    "name" : 23,
+    "age" : 23,
+    "name" : "John",
     "parent_permission" : false
   },
   {
     "id" : 880,
     "type" : "Student",
-    "age" : "william",
-    "name" : 45,
+    "age" : 45,
+    "name" : "william",
     "parent_permission" : false
   },
   {
     "id" : 908,
     "type" : "Student",
-    "age" : "Obama",
-    "name" : 54,
+    "age" : 54,
+    "name" : "Obama",
     "parent_permission" : false
   }
 ]

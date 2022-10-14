@@ -1,7 +1,6 @@
 AllCops:
   NewCops: enable
   Exclude:
-    - "start.rb"
     - "Guardfile"
     - "Rakefile"
     - "node_modules/**/*"

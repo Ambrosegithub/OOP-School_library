@@ -1,3 +1,4 @@
+# rubocop:disable Metrics/CyclomaticComplexity
 def start
   @output = gets.chomp.to_i
   case @output
@@ -23,3 +24,4 @@ def start
     puts 'Invalid option'
   end
 end
+# rubocop:enable Metrics/CyclomaticComplexity
