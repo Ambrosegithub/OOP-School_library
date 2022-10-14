@@ -11,7 +11,7 @@ module HandlePeople
                     type: person.class,
                     age: person.age,
                     name: person.name,
-                    parent_permission: person.parent_permission,
+                    parent_permission: person.parent_permission
                         
                 }
             )
@@ -21,7 +21,7 @@ module HandlePeople
                 type: person.class,
                 age: person.age,
                 name: person.name,
-                specialization: person.specialization,
+                specialization: person.specialization
                 }
             )
         end

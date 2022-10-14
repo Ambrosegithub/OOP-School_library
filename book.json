@@ -1,3 +1,26 @@
 [
-
+  {
+    "title" : "Programming fundamenals",
+    "author" : "Ambrose"
+  },
+  {
+    "title" : "Harry potter",
+    "author" : "Will Jones"
+  },
+  {
+    "title" : "Kingdom Business",
+    "author" : "Afolabi"
+  },
+  {
+    "title" : "The light within",
+    "author" : "Chimwe"
+  },
+  {
+    "title" : "Think big",
+    "author" : "Joseph"
+  },
+  {
+    "title" : "The white house",
+    "author" : "Anne"
+  }
 ]

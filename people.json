@@ -1,3 +1,23 @@
 [
-
+  {
+    "id" : 52,
+    "type" : "Student",
+    "age" : 23,
+    "name" : "John",
+    "parent_permission" : false
+  },
+  {
+    "id" : 880,
+    "type" : "Student",
+    "age" : 45,
+    "name" : "william",
+    "parent_permission" : false
+  },
+  {
+    "id" : 908,
+    "type" : "Student",
+    "age" : 54,
+    "name" : "Obama",
+    "parent_permission" : false
+  }
 ]
